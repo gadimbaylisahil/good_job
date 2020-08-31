@@ -127,7 +127,7 @@ There several top-level commands available through the `good_job` command-line t
 
 Configuration options are available with `help`.
 
-#### `good_job start`
+#### good_job start
 
 `good_job start` executes queued jobs.
 
@@ -152,7 +152,7 @@ Separate multiple queues with commas; exclude queues with a leading minus;
 separate isolated execution pools with semicolons and threads with colons.
 ```
 
-#### `good_job cleanup_preserved_jobs`
+#### good_job cleanup_preserved_jobs
 
 `good_job cleanup_preserved_jobs` deletes preserved job records. See [`GoodJob.preserve_job_records` for when this command is useful.
 
